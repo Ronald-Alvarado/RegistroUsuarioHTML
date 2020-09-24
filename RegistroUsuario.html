@@ -12,7 +12,7 @@
 		<div class="container shadow-lg p-3 rb-5 bg-white rounded">	
 			<div class="card">
 				<div class="card-header">
-					<h1>Registro de Usuarios</h1>
+					<h3>Registro de Usuarios</h3>
 				</div>
 				
 				<div class="card-body">
@@ -27,24 +27,34 @@
 					</div>
 
 					<div class="form-group">
-						<label>Direccion</label>
+						<label>Dirección</label>
 						<input type="text" name="Direccion" class="form-control"/>
 					</div>
 
 					<div class="form-group">
 						<label>Email</label>
-						<input type="text" name="Email" class="form-control"/>
+						<input type="Email" name="Email" class="form-control"/>
 					</div>
 
 					<div class="form-group">
 						<label>Fecha de Nacimiento</label>
-						<input type="text" name="FechaNacimiento" class="form-control"/>
+						<input type="Date" name="FechaNacimiento" class="form-control"/>
 					</div>
 
-					<div class="btn-group" role="group" aria-label="Basic example">
-						<button type="button" class="btn btn-secondary">Nuevo</button>
-						<button type="button" class="btn btn-success">Guardar</button>
-						<button type="button" class="btn btn-danger">Eliminar</button>
+					<!--Buttons--->
+
+					<div class="form-group text-center" display: inline-block>
+						<div class="btn-group mr-5" role="group" aria-label="First group">
+							<button type="button" class="btn btn-outline-secondary">Nuevo</button>
+						</div>
+
+						<div class="btn-group mr-5" role="group" aria-label="Second group">
+							<button type="button" class="btn btn-outline-success">Guardar</button>
+						</div>
+						
+						<div class="btn-group mr-5" role="group" aria-label="Third group">
+							<button type="button" class="btn btn-outline-danger">Eliminar</button>
+						</div>
 					</div>
 				</div>
 			</div>
