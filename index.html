@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Usuarios</title>
+
+	<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="main">			
+		<div class="container shadow-lg p-3 rb-5 bg-white rounded">	
+			<div class="card">
+				<div class="card-header">
+					<h3>Registro de Usuarios</h3>
+				</div>
+				
+				<div class="card-body">
+					<div class="form-group">
+						<label>UsuarioId</label>
+						<input type="text" name="UsuarioId" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Nombre</label>
+						<input type="text" name="Nombre" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Dirección</label>
+						<input type="text" name="Direccion" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Email</label>
+						<input type="Email" name="Email" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Fecha de Nacimiento</label>
+						<input type="Date" name="FechaNacimiento" class="form-control"/>
+					</div>
+
+					<!--Buttons--->
+
+					<div class="form-group text-center" display: inline-block>
+						<div class="btn-group mr-5" role="group" aria-label="First group">
+							<button type="button" class="btn btn-outline-secondary">Nuevo</button>
+						</div>
+
+						<div class="btn-group mr-5" role="group" aria-label="Second group">
+							<button type="button" class="btn btn-outline-success">Guardar</button>
+						</div>
+						
+						<div class="btn-group mr-5" role="group" aria-label="Third group">
+							<button type="button" class="btn btn-outline-danger">Eliminar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
