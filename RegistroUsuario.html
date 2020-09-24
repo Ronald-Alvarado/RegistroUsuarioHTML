@@ -8,38 +8,47 @@
 
 </head>
 <body>
-	<h1>Registro de Usuarios</h1>
+	<div class="main">			
+		<div class="container shadow-lg p-3 rb-5 bg-white rounded">	
+			<div class="card">
+				<div class="card-header">
+					<h1>Registro de Usuarios</h1>
+				</div>
+				
+				<div class="card-body">
+					<div class="form-group">
+						<label>UsuarioId</label>
+						<input type="text" name="UsuarioId" class="form-control"/>
+					</div>
 
-	<div class="form-group">
-		<label>UsuarioId</label>
-		<input type="text" name="UsuarioId" class="form-control"/>
+					<div class="form-group">
+						<label>Nombre</label>
+						<input type="text" name="Nombre" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Direccion</label>
+						<input type="text" name="Direccion" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Email</label>
+						<input type="text" name="Email" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<label>Fecha de Nacimiento</label>
+						<input type="text" name="FechaNacimiento" class="form-control"/>
+					</div>
+
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-secondary">Nuevo</button>
+						<button type="button" class="btn btn-success">Guardar</button>
+						<button type="button" class="btn btn-danger">Eliminar</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<div class="form-group">
-		<label>Nombre</label>
-		<input type="text" name="Nombre" class="form-control"/>
-	</div>
-
-	<div class="form-group">
-		<label>Direccion</label>
-		<input type="text" name="Direccion" class="form-control"/>
-	</div>
-
-	<div class="form-group">
-		<label>Email</label>
-		<input type="text" name="Email" class="form-control"/>
-	</div>
-
-	<div class="form-group">
-		<label>Fecha de Nacimiento</label>
-		<input type="text" name="FechaNacimiento" class="form-control"/>
-	</div>
-
-	<div class="form-group">
-		<button>Nuevo</button>
-		<button>Guardar</button>
-		<button>Eliminar</button>
-	</div>
-
 </body>
 </html>
